@@ -6,6 +6,7 @@
 
 body{
     font-family: sans-serif;
+    min-width: 1050px;
 }
 
 header{
@@ -59,11 +60,24 @@ header a.button{
     padding: 0.3rem 1rem;
 }
 
+.large-container{
+    width: 90%;
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+    position: relative;
+}
+
 .container{
     width: 80%;
     min-width: 500px;
     margin: 0 auto;
     background-color: silver;
+}
+
+.jumbotron-text{
+    width: 35%;
+    padding-top: 2rem;
 }
 
 .main-starter{
@@ -91,8 +105,28 @@ header a.button{
 
 section#jumbotron{
     width: 100%;
-    height: calc(100vh - 80px);
-    background-color: salmon;
+    height: calc(100vh - 70px);
+    background-color: rgb(178,209,230);
+}
+
+section#jumbotron h1{
+    font-size: 4.5rem;
+}
+
+section#jumbotron p{
+    margin: 1rem 0 2rem;
+}
+
+section#jumbotron img{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(35%);
+}
+
+section#jumbotron i.fa-arrow-down{
+    font-size: 2rem;
 }
 
 #standard{
