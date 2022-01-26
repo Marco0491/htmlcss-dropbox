@@ -14,27 +14,32 @@ header{
     line-height: 70px;
 }
 
-header img{
+header
+img{
     vertical-align: text-bottom;
     margin-left: 1rem;
     padding-right: 1rem;
 }
 
-header nav{
+header
+nav{
     display: inline-block;
 }
 
-header nav li{
+header
+nav li{
     display: inline;
     margin: 0 1rem;
 }
 
-header nav a{
+header
+nav a{
     text-decoration: none;
     color: black;
 }
 
-header a.button{
+header
+a.button{
     margin: 0 1rem;
 }
 
@@ -62,7 +67,6 @@ header a.button{
 
 .large-container{
     width: 90%;
-    min-width: 700px;
     margin: 0 auto;
     padding: 5rem 2rem;
     position: relative;
@@ -70,25 +74,7 @@ header a.button{
 
 .container{
     width: 80%;
-    min-width: 500px;
     margin: 0 auto;
-    background-color: silver;
-}
-
-.jumbotron-text{
-    width: 35%;
-    padding-top: 2rem;
-}
-
-.main-starter{
-    margin: 200px 0 50px;
-}
-
-.section-col{
-    width: calc((100% - 60px) / 3);
-    height: 700px;
-    display: inline-block;
-    background-color: darkgoldenrod;
 }
 
 .section-image{
@@ -109,15 +95,24 @@ section#jumbotron{
     background-color: rgb(178,209,230);
 }
 
-section#jumbotron h1{
+section#jumbotron
+h1{
     font-size: 4.5rem;
 }
 
-section#jumbotron p{
+section#jumbotron
+.jumbotron-text{
+    width: 35%;
+    padding-top: 2rem;
+}
+
+section#jumbotron
+p{
     margin: 1rem 0 2rem;
 }
 
-section#jumbotron img{
+section#jumbotron
+img{
     width: 60%;
     position: absolute;
     right: 0;
@@ -125,17 +120,50 @@ section#jumbotron img{
     transform: translateY(35%);
 }
 
-section#jumbotron i.fa-arrow-down{
+section#jumbotron
+i.fa-arrow-down{
     font-size: 2rem;
 }
 
-#standard{
-    margin: 0 30px;
+section#subscriptions{
+    margin-top: 200px;
 }
 
-#enterprice{
+section#subscriptions
+h2{
+    font-size: 2.5rem;
+}
+
+section#subscriptions
+form{
+    margin: 50px 0 30px;
+}
+
+section#subscriptions
+.vertical-col{
+    width: calc((100% - 100px) / 3);
+    height: 700px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+section#subscriptions
+.vertical-col:nth-of-type(2){
+    margin: 0 50px;
+}
+
+section#subscriptions
+.orizontal-col{
     width: 100%;
-    height: 150px;
-    background-color: darkgreen;
+    height: 200px;
+    border: 1px solid black;
     margin: 50px 0 100px;
+}
+
+section#subscriptions
+.top-col{
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
