@@ -43,6 +43,12 @@ a.button{
     margin: 0 1rem;
 }
 
+main
+section
+h2{
+    font-size: 2.5rem;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -75,6 +81,10 @@ a.button{
 .container{
     width: 75%;
     margin: 0 auto;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 section#jumbotron{
@@ -114,12 +124,7 @@ i.fa-arrow-down{
 }
 
 section#subscriptions{
-    margin-top: 200px;
-}
-
-section#subscriptions
-h2{
-    font-size: 2.5rem;
+    margin: 200px 0 100px;
 }
 
 section#subscriptions
@@ -187,3 +192,23 @@ a.white-button{
     color: black;
     border: 1px solid black;
 }
+
+section#operations
+.card{
+    width: calc(100% / 3);
+    padding: 2rem;
+}
+
+section#operations
+.card
+img{
+    width: 100%;
+}
+
+section#operations
+.card
+p{
+    line-height: 1.3rem;
+    margin-top: 20px;
+}
+
