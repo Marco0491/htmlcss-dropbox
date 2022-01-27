@@ -71,6 +71,19 @@ h2{
     padding: 0.3rem 1rem;
 }
 
+.white-button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.large-button{
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: transparent;
+    padding: 0.3rem 2rem;
+}
+
 .large-container{
     width: 90%;
     margin: 0 auto;
@@ -85,6 +98,38 @@ h2{
 
 .underline{
     text-decoration: underline;
+}
+
+.bg-lightgreen{
+    background-color: rgb(163,210,158);
+}
+
+.bg-bordeaux{
+    background-color: rgb(87,7,37);
+}
+
+.bg-lightblue{
+    background-color: rgb(0,150,204);
+}
+
+.bg-red{
+    background-color: rgb(255,20,29);
+}
+
+.bg-darkred{
+    background-color: rgb(215,0,31);
+}
+
+.bg-lightsteelblue{
+    background-color: rgb(178,209,230);
+}
+
+.bg-darkblue{
+    background-color: rgb(0,43,127);
+}
+
+.bg-yellow{
+    background-color: rgb(255,213,67);
 }
 
 section#jumbotron{
@@ -185,14 +230,6 @@ p{
     margin: 2rem 0;
 }
 
-section#subscriptions
-.section-text
-a.white-button{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-}
-
 section#operations
 .card{
     width: calc(100% / 3);
@@ -215,12 +252,82 @@ p{
 section#operations
 footer#operations-footer{
     width: 52%;
-    margin: 200px 0;
+    margin: 200px 0 50px;
 }
 
 section#operations
 footer#operations-footer
 h2{
     margin-bottom: 30px;
+}
+
+section#partner{
+    width: 100vw;
+    background-color: rgb(178,209,230);
+}
+
+section#partner
+.partner-cards{
+    width: 30vw;
+    height: 30vw;
+}
+
+section#partner
+.partner-cards
+.company{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+section#partner
+.partner-cards
+img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+section#partner
+.partner-text{
+    width: 40vw;
+    height: 30vw;
+    background-color: rgb(245,245,245);
+    padding: 3rem;
+}
+
+section#partner
+.partner-text
+img{
+    width: 110px;
+    height: 35px;
+}
+
+section#partner
+.partner-text
+p{
+    line-height: 1.3rem;
+    margin: 4rem 0 3rem;
+}
+
+section#partner
+#partner-footer{
+    width: 100%;
+    padding: 5rem 0;
+}
+
+section#partner
+#partner-footer
+.partner-footer-title{
+    width: 50%;
+    color: rgb(98,8,42)
+}
+
+section#partner
+#partner-footer
+.partner-footer-button{
+    padding-top: 1.5rem;
 }
 
