@@ -73,20 +73,8 @@ a.button{
 }
 
 .container{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-}
-
-.section-image{
-    width: 55%;
-    height: 300px;
-    background-color: darkmagenta;
-}
-
-.section-text{
-    width: 45%;
-    height: 200px;
-    background-color:orange;
 }
 
 section#jumbotron{
@@ -166,4 +154,36 @@ section#subscriptions
     line-height: 50px;
     text-align: center;
     border-bottom: 1px solid black;
+}
+
+section#subscriptions
+.section-image{
+    width: 55%;
+}
+
+section#subscriptions
+.section-text{
+    width: 45%;
+    padding: 2rem 2rem;
+}
+
+section#subscriptions
+.section-text
+h3{
+    font-size: 1.5rem;
+}
+
+section#subscriptions
+.section-text
+p{
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+
+section#subscriptions
+.section-text
+a.white-button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
