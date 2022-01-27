@@ -212,3 +212,15 @@ p{
     margin-top: 20px;
 }
 
+section#operations
+footer#operations-footer{
+    width: 52%;
+    margin: 200px 0;
+}
+
+section#operations
+footer#operations-footer
+h2{
+    margin-bottom: 30px;
+}
+
