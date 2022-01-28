@@ -227,8 +227,8 @@ form{
 section#subscriptions
 .vertical-col{
     width: calc((100% - 100px) / 3);
-    height: 700px;
-    border: 1px solid black;
+    height: 1000px;
+    border: 1px solid lightgray;
     display: inline-block;
 }
 
@@ -241,7 +241,7 @@ section#subscriptions
 .orizontal-col{
     width: 100%;
     height: 200px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     margin: 50px 0 100px;
 }
 
@@ -250,7 +250,55 @@ section#subscriptions
     width: 100%;
     line-height: 50px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
+}
+
+section#subscriptions
+.col-main{
+    padding: 2rem 1rem 0;
+}
+
+section#subscriptions
+.col-main-title{
+    margin-bottom: 3rem;
+}
+
+section#subscriptions
+.col-main-title h3{
+    font-size: 1.5rem;
+}
+
+section#subscriptions
+.col-main-title .price{
+    font-weight: bold;
+    margin: 2rem 0 0.5rem;
+}
+
+section#subscriptions
+.col-main-title .sales-office{
+    font-weight: bold;
+    margin: 1rem 0 1.5rem;
+}
+
+section#subscriptions
+.col-main-content>*{
+    margin-bottom: 2rem;
+}
+
+section#subscriptions
+.col-main-content h4{
+    padding-top: 2rem;
+}
+
+section#subscriptions
+.col-main-content ul li{
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+section#subscriptions
+.col-main-content ul li i.fa-check{
+    color: rgb(0,107,251);
 }
 
 section#subscriptions
@@ -397,4 +445,3 @@ section#faq
     padding: 30px 0;
     border-bottom: 1px solid lightgray;
 }
-
