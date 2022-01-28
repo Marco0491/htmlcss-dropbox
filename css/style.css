@@ -288,6 +288,7 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    filter: invert(1);
 }
 
 section#partner
@@ -296,6 +297,7 @@ section#partner
     height: 30vw;
     background-color: rgb(245,245,245);
     padding: 3rem;
+    overflow: auto;
 }
 
 section#partner
@@ -329,5 +331,23 @@ section#partner
 #partner-footer
 .partner-footer-button{
     padding-top: 1.5rem;
+}
+
+section#faq
+.faq-title{
+    border-bottom: 1px solid lightgray;
+    padding: 100px 0 50px;
+}
+
+section#faq
+.faq-title
+h3{
+    font-size: 2rem;
+}
+
+section#faq
+.question{
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
 }
 
