@@ -28,6 +28,7 @@ nav{
 
 header
 nav li{
+    list-style: none;
     display: inline;
     margin: 0 1rem;
 }
@@ -47,6 +48,52 @@ main
 section
 h2{
     font-size: 2.5rem;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+}
+
+footer
+nav{
+    width: 20%;
+    height: 175px;
+}
+
+footer
+nav h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+footer
+nav li{
+    list-style: none;
+    line-height: 1.7rem;
+    font-size: 0.8rem;
+}
+
+footer
+nav a,#language{
+    text-decoration: none;
+    color: white;
+}
+
+footer
+#language{
+    color: gray;
+    font-size: 0.8rem;
+    border-top: 1px solid lightgray;
+    padding: 2rem 2rem 2rem 0;
+    margin-top: 100px;
+}
+
+footer
+#language
+i.fa-globe-europe{
+    color: lightgray
 }
 
 .clearfix::after{
@@ -87,7 +134,7 @@ h2{
 .large-container{
     width: 90%;
     margin: 0 auto;
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 0;
     position: relative;
 }
 
@@ -160,7 +207,7 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    transform: translateY(35%);
+    transform: translateY(50%);
 }
 
 section#jumbotron
@@ -250,13 +297,13 @@ p{
 }
 
 section#operations
-footer#operations-footer{
+#operations-footer{
     width: 52%;
     margin: 200px 0 50px;
 }
 
 section#operations
-footer#operations-footer
+#operations-footer
 h2{
     margin-bottom: 30px;
 }
@@ -347,7 +394,7 @@ h3{
 
 section#faq
 .question{
-    padding: 20px 0;
+    padding: 30px 0;
     border-bottom: 1px solid lightgray;
 }
 
